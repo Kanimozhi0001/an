@@ -3,8 +3,15 @@ package org.kk;
 
 public class Kkk {
 
-	public static void main(String[] args) {
+	private void prnt() {
+		
+	
 		System.out.println("hai");
+	}
+	public static void main(String[] args) {
+		
+		Kkk k = new Kkk();
+		k.prnt();
 	}
 
 }
